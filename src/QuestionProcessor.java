@@ -3,6 +3,8 @@ import java.util.ArrayList;
 public class QuestionProcessor {
 
     private static final String[] qtypes = {"personal", "skills", "education", "projects", "awards", "website"};
+    private static final String[] personalKeywords = {"address", "hometown", "age", "nationality", "country"};
+    private static final String[] skillsKeywords = {"programming", "languages", "concepts", "frameworks", "java", "c++", "c#", "c", "python", "networks", "protocols"};
 
     private static Score[] scores;
 
@@ -22,4 +24,6 @@ public class QuestionProcessor {
         }
         return max;
     }
+
+
 }
