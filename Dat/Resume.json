@@ -1,0 +1,31 @@
+{
+  "first_name": "Anmol",
+  "last_name": "Singh",
+  "hometown": "Shillong",
+  "education":{
+    "year": 3,
+    "faculty": "Science",
+    "major": "Computer Science",
+    "university_name": "the University of British Columbia, Vancouver Campus"
+  },
+  "projects":{
+    "1": {
+      "name": "Sword Ship",
+      "desc": "A game developed using the Unity engine by a team of four. In its current stage, it is a double player game that simulates a space-like environment in which players face various hazards and fight with each other using weapons. It was showcased at the Vancouver Comic Art Festival, 2017.",
+      "tech": ["C#", "Unity"]
+    },
+    "2": {
+      "name": "UBC Pair Insights query engine",
+      "desc": "RESTful web application that takes in database queries from the user for accessing UBC course and classroom information. Various operations can be performed on the data by the user through queries.",
+      "tech": ["node.js", "mocha", "chai", "REST API", "JSON", "HTML", "promises", "asynchronous programming"]
+    },
+    "3": {
+      "name": "DNS resolver",
+      "desc": "Terminal application that takes in a FQDN and provides information about all the name servers and their IP addresses under the FQDN.",
+      "tech": ["Java", "UDP socket programming", "Building from a RFC"]
+    },
+    "4": {
+      
+    }
+  }
+}
