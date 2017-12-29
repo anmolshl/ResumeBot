@@ -8,7 +8,7 @@
     "major": "Computer Science",
     "university_name": "the University of British Columbia, Vancouver Campus"
   },
-  "projects":{
+  "projects": {
     "1": {
       "name": "Sword Ship",
       "desc": "A game developed using the Unity engine by a team of four. In its current stage, it is a double player game that simulates a space-like environment in which players face various hazards and fight with each other using weapons. It was showcased at the Vancouver Comic Art Festival, 2017.",
@@ -25,7 +25,68 @@
       "tech": ["Java", "UDP socket programming", "Building from a RFC"]
     },
     "4": {
-      
+      "name": "Simple email servers",
+      "desc": "SMTP and POP3 servers that work together to provide a simple email service to users",
+      "tech": ["C", "TCP sockets in C", "Building from a RFC", "Mail protocols"]
+    },
+    "5": {
+      "name": "Dictionary",
+      "desc": "Client-server application that looks up word meanings on a dict.org server using TCP sockets.",
+      "tech": ["Java", "TCP sockets in Java"]
+    },
+    "6": {
+      "name": "BusesRUs",
+      "desc": "An android application that links to the TransLink API and provides live bus information. It also shows various bus routes, bus stops and the closest bus stop to the user on a map (Google maps API).",
+      "tech": ["Android API", "Google Maps API", "Polyline API", "TransLink API", "Java", "Unit testing", "Genymotion emulator", "Debugging on Android"]
+    }
+  },
+  "work_exp": {
+    "1": {
+      "title": "Software development intern",
+      "location": "Source Dot Com, Shillong, India",
+      "desc": "Spent 2 months interning at Source Dot Com. Worked with a team of engineers on an encrypted messaging system for a branch of the Indian Army. Also provided my help to a team involved in building an application in C# that helps a user interact with a fingerprint scanner.",
+      "start": "may2017",
+      "end": "jun2017"
+    },
+    "2": {
+      "title": "Cashier",
+      "location": "Shoppers Drug Mart, UBC Vancouver",
+      "desc": "Cashiering, along with multiple other tasks such as restocking and customer services.",
+      "start": "jul2017",
+      "end": "sept2017"
+    },
+    "3": {
+      "title": "Pizzaiolo",
+      "location": "Mercante Pizzeria, UBC Vancouver",
+      "desc": "At this job, I get to hone my cooking skills. I am a very passionate cook.",
+      "start": "mar2016",
+      "end": "pres"
+    }
+  },
+  "tech_skills": {
+    "programming_languages": ["C++", "Java", "C#", "C", "HTML5", "PHP*", "Racket", "JavaScript", "Typescript", "Julia", "R", "SQL", "Python", "SM213 Assembly"],
+    "conceptual": ["OOP", "Greedy algorithms", "dynamic programming", "Scrum", "SOLID", "various design patterns", "REST API", "NP reductions", "runtime analysis", "space complexity analysis", "memory management", "data structures", "event driven programming", "threads", "asynchronous programming", "full stack development", "networks", "machine learning", "data mining", "socket programming"],
+    "applications": ["Windows forms", "Unity", "web application design", "databases", "class libraries", "Android API", "Google maps API", "JSON parsing", "XML parsing", "text parsing", "Unix terminal"]
+  },
+  "rel_courses": ["Systematic Program Design", "Models of Computation", "Introduction to Programming using Python (MIT MOOC)", "Software Construction", "Software Engineering", "Introduction to Data Structures and Algorithms", "Intermediate Algorithms and Analysis", "Computer Systems", "Internet Computing", "Machine Learning and Data Mining", "Advanced Algorithms and Analysis", "Operating Systems", "Introduction to Databases", "All relevant Math courses"],
+  "community_inv": {
+    "1": {
+      "title": "UBC AGDA",
+      "desc": "Part of UBC’s AMS Game Development Association. We meet every few days for various workshops, game jams and to work on our games."
+    },
+    "2": {
+      "title": "UBC BizTech",
+      "desc": "Part of the UBC BizTech community that hosts special events related to tech and the business world. Acclaimed achievers in these fields are brought to the university campus to talk to us about active areas of interest in their respective fields."
+    }
+  },
+  "others": {
+    "1": {
+      "title": "UBC Outstanding International Student Award",
+      "desc": "Won a scholarship of $6,000 for academic performance and numerous other activities."
+    },
+    "2": {
+      "title": "My World in a Blog",
+      "desc": "I currently maintain a website where I blog about my travel and life experiences."
     }
   }
 }
